@@ -48,3 +48,14 @@ body {
 .panel.active h3 {
 	opacity: 1;
 }
+
+@media (max-width: 480px) {
+	.container {
+		width: 100vw;
+	}
+
+	.container .panel:nth-of-type(4),
+	.container .panel:nth-of-type(5) {
+		display: none;
+	}
+}
